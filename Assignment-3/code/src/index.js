@@ -4,9 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const data={
+  Name:'Mohanish Ravula',
+  EmployeeID: 'B160822EE',
+  Time:'09:30',
+  date:'27-06-2022',
+  Email:'RAVULAMOHANISH9064@GMAIL.COM',
+  Phone:'+91-7013918981',
+  Status:'In Progress',
+  Door:'HANAMKONDA',
+  Img:'https://www.w3schools.com/howto/img_avatar.png',
+  time2:'18:00',
+};
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App data={data} />
   </React.StrictMode>,
   document.getElementById('root')
 );
